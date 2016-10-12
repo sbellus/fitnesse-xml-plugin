@@ -108,7 +108,10 @@ public class XmlSymbol extends SymbolType implements Rule, Translation {
         
         HtmlTag xmlSection = new HtmlTag("div");
         xmlSection.addAttribute("class", "listing_xml");
-        xmlSection.addAttribute("originalxml", trim(symbol.getProperty("xml")));
+        String originalXml = trim(symbol.getProperty("xml"));
+        originalXml = originalXml.replaceAll("\"", "&quot");
+        originalXml = originalXml.replaceAll("'", "&amp");
+        xmlSection.addAttribute("originalxml", originalXml);
         xmlSection.add(new RawHtml(html));
 
         return xmlSection.html();
