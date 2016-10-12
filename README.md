@@ -4,7 +4,7 @@ The project extends [Fitnesse](http://www.fitnesse.org/) wiki with colorized XML
 
 # Installation
 
-1. Copy jar file from [this project Releases](https://github.com/sbellus/fitnesse-plantuml-plugin/releases) to plugins directory of your Fitnesse.
+1. Copy jar file from [this project Releases](https://github.com/sbellus/fitnesse-xml-plugin/releases) to plugins directory of your Fitnesse.
 2. Restart Fitnesse
 
 ## Configuration
