@@ -1,3 +1,5 @@
+This plugin is obsolete. Use [fitnesse-codeprettifier-plugin](https://github.com/sbellus/fitnesse-codeprettifier-plugin).
+
 # Overview
 
 The project extends [Fitnesse](http://www.fitnesse.org/) wiki with colorized XML.
