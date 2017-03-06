@@ -1,4 +1,4 @@
-This plugin is obsolete. Use [fitnesse-codeprettifier-plugin](https://github.com/sbellus/fitnesse-codeprettifier-plugin).
+> **This plugin is obsolete. Use [fitnesse-codeprettifier-plugin](https://github.com/sbellus/fitnesse-codeprettifier-plugin).**
 
 # Overview
 
